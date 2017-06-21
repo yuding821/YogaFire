@@ -17,10 +17,10 @@ public class UpperbodyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_upperbody);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(getResources().getString(R.string.app_name));
         listView = (ListView) findViewById(R.id.listView);
 
         ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(UpperbodyActivity.this,

@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UpperbodyActivity" />
+        <activity android:name=".UpperbodyActivity"
+            />
         <activity android:name=".LowerbodyActivity" />
         <activity android:name=".SleepActivity" />
         <activity android:name=".ToolActivity" />
